@@ -1,3 +1,7 @@
+<div align='center'>
+  <img src='./images/Anon.jpeg' alt='My Avatar' width='128' />
+</div>
+
 # Serhii Shabala
 
 ## Contact information:
@@ -17,7 +21,9 @@ What can I say about myself. I got interested in programming, took a couple of c
 - SCSS,
 - Figma,
 - HTML5,
+- Avacode,
 - response,
+- JavaScript,
 
 ## Code Example:
 
@@ -35,12 +41,13 @@ What can I say about myself. I got interested in programming, took a couple of c
 
 ## Work Experience:
 
-Some month experience.
+Some month experience in Ukraine IT company.
 
 ## Education:
 
 - BeetRoot Academy: Junior FE Developer (HTML/CSS/JS) (February 2019)
 - Udemy course: "Fundamental JavaScript - Михаил Непомнящий"
+- Udemy course: "Полный курс по JavaScript + React - с нуля до результата - Ivan Petrichenko"
 
 ## Leanguages:
 
