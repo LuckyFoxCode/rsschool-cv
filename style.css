@@ -52,6 +52,8 @@ button {
 
 .main {
   display: flex;
+  width: 100%;
+  max-width: 800px;
 
   .aside {
     display: flex;
@@ -164,5 +166,53 @@ button {
         margin-right: 0;
       }
     }
+  }
+
+  .content {
+    padding: 40px 30px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .experience__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .experience__projects {
+    display: flex;
+    flex-direction: column;
+
+    .experience__projects_item {
+      width: fit-content;
+      margin-bottom: 5px;
+    }
+
+    .experience__projects_link {
+      font-family: var(--second-font);
+      font-size: 14px;
+      color: var(--black);
+      transition: color 0.2s ease-in-out;
+    }
+  }
+  .experience__projects_item:hover > .experience__projects_link {
+    color: var(--line);
   }
 }
