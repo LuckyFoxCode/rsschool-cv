@@ -52,17 +52,15 @@ button {
 
 .main {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  max-width: 800px;
 
   .aside {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 200px;
-    min-height: 100vh;
     background-image: var(--bg);
-    padding: 30px 25px;
+    padding: 15px;
     color: var(--white);
 
     .aside__avatar {
@@ -169,13 +167,17 @@ button {
   }
 
   .content {
-    padding: 40px 30px;
+    padding: 15px;
   }
 
   .section {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+  }
+
+  .section:last-child {
+    margin-bottom: 0;
   }
 
   .title {
@@ -214,5 +216,22 @@ button {
   }
   .experience__projects_item:hover > .experience__projects_link {
     color: var(--line);
+  }
+}
+
+@media all and (min-width: 768px) {
+  .main {
+    flex-direction: row;
+    max-width: 800px;
+  }
+
+  .aside {
+    max-width: 200px;
+    min-height: 100vh;
+    padding: 30px 25px;
+  }
+
+  .content {
+    padding: 40px 30px;
   }
 }
