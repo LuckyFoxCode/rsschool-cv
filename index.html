@@ -1,148 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <title>rsschool-cv-html</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Josefin+Sans:wght@300;400;600&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <title>rsschool-cv-html</title>
-</head>
-
-<body>
-  <header class="header container">
-    <a class="header__logo" href="#">
-      <h1 class="header__logo-title">13RedFox</h1>
-    </a>
-    <nav class="header__nav">
-      <ul class="header__nav-list">
-        <li class="header__nav-item">
-          <a href="#about" class="header__nav-link">about</a>
-        </li>
-        <li class="header__nav-item">
-          <a href="#projects" class="header__nav-link">projects</a>
-        </li>
-        <li class="header__nav-item">
-          <a href="#contacts" class="header__nav-link">contacts</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main class="main container">
-    <section class="about" id="about">
-      <h2 class="title">About me:</h2>
-      <p class="about__descr">
-        What can I say about myself. I got interested in programming, took a couple of courses on
-        different platforms, such as: (YouTube, Udemy), I also completed the BeetRoot Academy - FE
-        Developer course. I want to develop as a developer, because it brings me a lot of pleasure.
-      </p>
-    </section>
-    <section class="skills">
-      <h2 class="title">My Skills</h2>
-      <ul class="skills__list">
-        <li class="skills__list_item">
-          <progress class="skills__list_progress" id="html" max="100" value="90"></progress>
-          <label for="html">html5</label>
-        </li>
-        <li class="skills__list_item">
-          <progress class="skills__list_progress" id="css" max="100" value="90"></progress>
-          <label for="css">css3</label>
-        </li>
-        <li class="skills__list_item">
-          <progress class="skills__list_progress" id="scss" max="100" value="90"></progress>
-          <label for="scss">scss</label>
-        </li>
-        <li class="skills__list_item">
-          <progress class="skills__list_progress" id="js" max="100" value="60"></progress>
-          <label for="js">JavaScript</label>
-        </li>
-        <li class="skills__list_item">
-          <progress class="skills__list_progress" id="git" max="100" value="70"></progress>
-          <label for="git">Git</label>
-        </li>
-      </ul>
-    </section>
-    <section class="code">
-      <h2 class="title">Code Example:</h2>
-      <code>
-        console.log('Hello world');
-      </code>
-    </section>
-    <section class="education">
-      <h2 class="title">Education:</h2>
-      <ul class="education__list">
-        <li class="education__list_item">
-          1. BeetRoot Academy: Junior FE Developer (HTML/CSS/JS) (February 2019)
-        </li>
-        <li class="education__list_item">
-          2. Udemy course: "Fundamental JavaScript - Михаил Непомнящий"
-        </li>
-        <li class="education__list_item">
-          3. Udemy course: "Полный курс по JavaScript + React - с нуля до результата - Ivan Petrichenko"
-        </li>
-      </ul>
-    </section>
-    <section class="projects" id="projects">
-      <h2 class="title">Work Experience & Projects</h2>
-      <p class="projects__descr">Some month experience in Ukraine IT company.</p>
-      <ul class="projects__list">
-        <li class="projects__list_item">
-          <a class="projects__list_link" href="https://13redfox.github.io/beetroot/mogo/app/" target="_blank">1. MoGo:
-            (HTML, CSS, SCSS, JavaScript)</a>
-        </li>
-        <li class="projects__list_item">
-          <a class="projects__list_link" href="https://13redfox.github.io/beetroot/cahee/app/" target="_blank">2. Cahee:
-            (HTML, CSS, SCSS, JavaScript)</a>
-        </li>
-        <li class="projects__list_item">
-          <a class="projects__list_link" href="https://13redfox.github.io/beetroot/digitalproducts/app/"
-            target="_blank">3. Digital Project: (HTML, CSS, SCSS, JavaScript)</a>
-        </li>
-        <li class="projects__list_item">
-          <a class="projects__list_link" href="https://13redfox.github.io/beetroot/active-box/app/" target="_blank">4.
-            ActiveBox: (HTML, CSS, SCSS, JavaScript)</a>
-        </li>
-        <li class="projects__list_item">
-          <a class="projects__list_link" href="https://13redfox.github.io/beetroot/logotype/app/" target="_blank">5.
-            LogoType: (HTML, CSS, SCSS, JavaScript)</a>
-        </li>
-        <li class="projects__list_item">
-          <a class="projects__list_link" href="https://13todos-ts.netlify.app/" target="_blank">6. Todo: (HTML, CSS,
-            SCSS, JavaScript, TypeScript, React, React-Router, Zustand)</a>
-        </li>
-      </ul>
-    </section>
-    <section class="contacts" id="contacts">
-      <h2 class="title">Contacts:</h2>
-      <div class="contacts__wrapper">
-        <img class="contacts__wrapper_img" src="./images/Anon.jpeg" alt="Avatar">
-        <ul class="contacts__list">
-          <li class="contacts__list_item">
-            discord: Anonymous🦊(@13RedFox)
+  <body>
+    <header class="header container">
+      <a
+        class="header__logo"
+        href="#"
+      >
+        <h1 class="header__logo-title">13RedFox</h1>
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a
+              href="#about"
+              class="header__nav-link"
+              >about</a
+            >
           </li>
-          <li class="contacts__list_item">
-            <a class="contacts__list_link" href="mailto:sergei181989@gmail.com">
-              ✍️ sergei181989@gmail.com
-            </a>
+          <li class="header__nav-item">
+            <a
+              href="#projects"
+              class="header__nav-link"
+              >projects</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a
+              href="#contacts"
+              class="header__nav-link"
+              >contacts</a
+            >
           </li>
         </ul>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer container">
-    <a class="footer__github" href="https://github.com/13RedFox" target="_blank">
-      <img class="footer__github_icon" src="./images/github.svg" alt="icon">
-      <span>github</span>
-    </a>
-    <span class="footer__school_copy">&#169 2023</span>
-    <a class="footer__school" href="https://rs.school/js-stage0/" target="_blank">
-      <img class="footer__school_logo" src="./images/rs_school.svg" alt="Logo">
-    </a>
-  </footer>
-</body>
-
+      </nav>
+    </header>
+  </body>
 </html>
