@@ -17,7 +17,7 @@ What can I say about myself. I got interested in programming, took a couple of c
 
 - Git,
 - BEM,
-- CSS5,
+- CSS3,
 - SCSS,
 - Figma,
 - HTML5,
